@@ -28,7 +28,7 @@ Install the required libraries:
 
        parameters_dictionary:
            TOKEN: YOUR_API_KEY_HERE
-2. Add Channel IDs:
+2. Add Channel IDs:</br>
 • Update the channel_ids list in the script with the IDs of the YouTube channels you want to analyze:
 
        channel_ids = ['CHANNEL_ID_1', 'CHANNEL_ID_2', ...]
