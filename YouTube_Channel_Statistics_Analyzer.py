@@ -18,7 +18,7 @@ TOKEN = parameters_file_parsed["parameters_dictionary"].get('TOKEN')
 
 # List of channel IDs
 # Exemple
-#channel_ids = ['UCbbQt4SQp26xjc55bCs-uGA','UCSNkfKl4cU-55Nm-ovsvOHQ','UCEHvaZ336u7TIsUQ2c6SAeQ','UCbQh1yxBPVhyjB-G_blFFEQ','UCMPBiSwYY4fS1LYw4KkDZuw','UCHZ5aiT4AuuqKLAGefojfNg']
+#channel_ids = ['UCbbQt4SQp26xjc55bCs-uGA','UCSNkfKl4cU-55Nm-ovsvOHQ','UCbQh1yxBPVhyjB-G_blFFEQ','UCMPBiSwYY4fS1LYw4KkDZuw','UCAahySnMsXP77kGb0Gfcq-w']
 channel_ids = ['']
 
 # Initialize YouTube API client
@@ -49,6 +49,6 @@ view_data['Subscribers'] = pd.to_numeric(view_data['Subscribers'])
 view_data['Views'] = pd.to_numeric(view_data['Views'])
 view_data['Total_videos'] = pd.to_numeric(view_data['Total_videos'])
 
-ax = sns.barplot(x='channel_name', y='Total_videos', data=view_data)
+ax = sns.barplot(x='channel_name', y='Subscribers', data=view_data)
 # show the data as a plot for good view..
 plt.show()
