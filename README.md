@@ -55,9 +55,12 @@ Install the required libraries:
     |---------------------|-------------|---------|--------------|
     | Example Channel 1   | 1,000,000   | 500,000 | 50           |
     | Example Channel 2   | 750,000     | 300,000 | 40           |
-    
+
+<img src="https://github.com/Oanekrif/YouTube-Channel-Statistics-Analyzer/blob/master/src/image.png" width="700"></br>
+
 ### Bar Chart:</br>
-Displays a bar plot showing the number of videos for each channel.
+Displays a bar plot showing the number of videos for each channel.</br>
+<img src="https://github.com/Oanekrif/YouTube-Channel-Statistics-Analyzer/blob/master/src/Figure.png" width="900"></br>
 
 ## ✨ Future Enhancements</br>
 • 📈 Add more visualization options (e.g., line charts for views over time).</br>
